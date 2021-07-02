@@ -18,7 +18,6 @@ public class Step {
 
     @Пусть("открыт ресурс авито")
     public static void openWeb(){
-        Hook.getDriver().manage().window().maximize();
         Hook.getDriver().get("https://www.avito.ru/");
     }
 
